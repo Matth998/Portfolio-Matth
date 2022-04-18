@@ -1,0 +1,22 @@
+.bg-home {
+
+  padding: 3rem 0 7rem;
+  position: relative;
+  background-color: #1b004d;
+  background-image: linear-gradient(135deg, #1b004d 0%, #000000 100%);
+  background-size: cover;
+  z-index: 0
+}
+
+.bg-home svg.wave {
+
+  position: absolute;
+  bottom: -1px;
+  left: 0
+}
+
+.bg-list{
+
+    background: transparent;
+
+}
