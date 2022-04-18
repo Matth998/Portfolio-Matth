@@ -1,3 +1,4 @@
+import { SkillsComponent } from './skills/skills.component';
 import { AboutComponent } from './about/about.component';
 import { Error404Component } from './error404/error404.component';
 import { HomeComponent } from './home/home.component';
@@ -11,6 +12,8 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
 
   {path: 'about', component: AboutComponent},
+
+  {path: 'skills', component: SkillsComponent},
   
   {path: '**', component: Error404Component}
 
