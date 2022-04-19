@@ -1,0 +1,31 @@
+.bg-skill {
+  padding: 3rem 0 7rem;
+  position: relative;
+  background-color: #1b004d;
+  background-image: linear-gradient(135deg, #1b004d 0%, #000000 100%);
+  background-size: cover;
+  z-index: 0;
+}
+
+.bg-skill svg.wave {
+  position: absolute;
+  bottom: -1px;
+  left: 0
+}
+
+.bg-carrousel {
+
+  background: rgba(9, 9, 38, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+}
+
+.btn-carousel {
+
+  border: none;
+  background-color: transparent;
+  color: #102770;
+  box-shadow: 0 8px 24px 0 rgba(167, 255, 237, 0.2);
+
+}
