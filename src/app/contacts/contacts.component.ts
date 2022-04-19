@@ -10,15 +10,17 @@ export class ContactsComponent implements OnInit {
 
   mail: Mail = new Mail();
 
-  constructor() { }
+  constructor(
 
-  ngOnInit(){
+  ) { }
 
-    window.scroll(0,0)
+  ngOnInit() {
+
+    window.scroll(0, 0)
 
   }
 
-  send(){
+  send() {
 
     alert("Você será redimencionado para a conta do gmail.")
 
